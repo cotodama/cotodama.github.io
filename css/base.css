@@ -1,0 +1,125 @@
+﻿@charset "utf-8";
+
+body,
+textarea {
+	font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", Arial, sans-serif;
+}
+
+input,
+select {
+	font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", Arial, sans-serif;
+}
+
+body {
+	font-size:62.5%;
+	color:#333;
+}
+
+ul, ol, dl, li li, dd li, dd th, dd td, table {
+	font-size:100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, dd, caption, th, td {
+	font-size:140%;
+}
+
+a:link {
+	color:#333;
+}
+
+a:visited {
+	text-decoration:none;
+	color:#333;
+}
+
+a:hover {
+	text-decoration:none;
+	color:#ff2966;
+}
+
+a:active {
+	text-decoration:none;
+	color:#333;
+}
+
+html {
+	overflow-y:scroll;
+	background:#fff;
+}
+
+body {
+	margin:0;
+	line-height:1.5;
+	text-align:center;
+}
+
+p {
+	margin:0 0 0.5em 0;
+}
+
+
+
+img {
+	border:none;
+	vertical-align:bottom;
+}
+
+#container {
+	margin:0 auto;
+	width:1000px;
+}
+
+#archive {
+	margin:0 auto; /* 任意の横幅を指定 */
+	text-align:left;
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", Arial, sans-serif;
+    font-size: 15px;
+}
+
+#archive a {
+    font-weight: bold; /* 必要に応じて個別の <a> タグに太さを指定 */
+}
+
+
+#logo {
+	margin:118px 0 0 60px;
+}
+
+#url {
+	position:relative;
+	margin:5px 100% 0 -100%;
+	background:url("../img/obi_bk.jpg") repeat-x;
+	text-align:right;
+	zoom:1.0;
+}
+
+#url p {
+	margin:0 -318px 0 0;
+	background:url("../img/obi_bk.jpg") repeat-x;
+	zoom:1.0;
+}
+
+#navigation {
+	margin:-20px 0 20px 0;
+}
+
+#navigation ul {
+	margin:0 0 0 0;
+	padding:0;
+	text-align:right;
+	list-style:none
+}
+
+#navigation li {
+	display:inline;
+	margin:0 0 0 0;
+	padding:0 25px 0 13px;
+	background:url("../img/linkpojnts.gif") no-repeat 0 0.3em;
+}
+
+#copyright {
+	margin:20px 0;
+	text-align:center;
+	font-size:90%;
+	color:#999;
+}
